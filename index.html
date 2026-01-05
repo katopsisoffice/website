@@ -2,84 +2,88 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8" />
-<title>Website</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<style>
-:root {
---bg: #0a0f1f;
---panel: #0f172a;
---blue: #38bdf8;
---blue-soft: #1e293b;
---text: #e5e7eb;
---muted: #94a3b8;
-}
-
-
-
-* {
-  box-sizing: border-box;
-  font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
-}
-body {
-  margin: 0;
-  background: radial-gradient(circle at top, #0b1229, var(--bg));
-  color: var(--text);
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.card {
-  background: linear-gradient(180deg, var(--panel), #020617);
-  padding: 48px;
-  border-radius: 16px;
-  width: 100%;
-  max-width: 520px;
-  box-shadow: 0 40px 120px rgba(0,0,0,.6);
-  border: 1px solid rgba(56,189,248,.15);
-}
-h1 {
-  margin: 0 0 12px;
-  font-size: 32px;
-  letter-spacing: -0.02em;
-}
-p {
-  margin: 0 0 32px;
-  color: var(--muted);
-  line-height: 1.6;
-}
-.btn {
-  display: inline-block;
-  padding: 14px 22px;
-  border-radius: 10px;
-  background: linear-gradient(135deg, #38bdf8, #0ea5e9);
-  color: #020617;
-  font-weight: 600;
-  text-decoration: none;
-  box-shadow: 0 10px 30px rgba(56,189,248,.35);
-  transition: transform .15s ease, box-shadow .15s ease;
-}
-.btn:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 16px 40px rgba(56,189,248,.5);
-}
-footer {
-  margin-top: 40px;
-  font-size: 12px;
-  color: var(--muted);
-  opacity: .6;
-}
-</style>
+<title>AI Visual Lab</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-<div class="card">
-<h1>Cold Blue Interface</h1>
-<p>
-Minimal. Calm. High-end.<br>
-Built raw. No frameworks. Just control.
-</p>
-<a class="btn" href="#">Enter</a>
-<footer>© 2026</footer>
+
+<div class="parallax-bg"></div>
+
+<header class="hero">
+<h1>AI VISUAL TRANSFORMATION LAB</h1>
+<p>From reality to synthetic intelligence</p>
+</header>
+
+<section class="triplets">
+
+<!-- TRIPLET -->
+<div class="triplet">
+<img src="og1.jpg" alt="Original">
+<div class="arrow">→</div>
+<img src="ai1.jpg" alt="AI Image">
+<div class="arrow">→</div>
+<img src="vid1.jpg" alt="AI Video">
 </div>
+<p class="caption">Original input transformed through AI vision and motion synthesis</p>
+
+<!-- COPY SAME STRUCTURE 4 TIMES -->
+<div class="triplet">
+<img src="og2.jpg">
+<div class="arrow">→</div>
+<img src="ai2.jpg">
+<div class="arrow">→</div>
+<img src="vid2.jpg">
+</div>
+<p class="caption">Original input transformed through AI vision and motion synthesis</p>
+
+<div class="triplet">
+<img src="og3.jpg">
+<div class="arrow">→</div>
+<img src="ai3.jpg">
+<div class="arrow">→</div>
+<img src="vid3.jpg">
+</div>
+<p class="caption">Original input transformed through AI vision and motion synthesis</p>
+
+<div class="triplet">
+<img src="og4.jpg">
+<div class="arrow">→</div>
+<img src="ai4.jpg">
+<div class="arrow">→</div>
+<img src="vid4.jpg">
+</div>
+<p class="caption">Original input transformed through AI vision and motion synthesis</p>
+
+</section>
+
+<section class="gallery">
+<div class="card">
+<img src="g1.jpg">
+<span>High-fidelity AI reconstruction</span>
+</div>
+<div class="card">
+<img src="g2.jpg">
+<span>Neural lighting synthesis</span>
+</div>
+<div class="card">
+<img src="g3.jpg">
+<span>Prompt-driven realism</span>
+</div>
+<div class="card">
+<img src="g4.jpg">
+<span>Temporal consistency study</span>
+</div>
+<div class="card">
+<img src="g5.jpg">
+<span>AI cinematic depth</span>
+</div>
+<div class="card">
+<img src="g6.jpg">
+<span>Synthetic environment design</span>
+</div>
+</section>
+
 </body>
 </html>
